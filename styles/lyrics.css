@@ -1,0 +1,234 @@
+.lyrics-container {
+  background-color: white;
+
+ position:absolute;
+ left: 0;
+ right: 0;
+ top: 385px;
+ height: 1585px;
+ box-shadow: 0 -100px 500px rgba(0, 0, 0, 0.615);
+ z-index: 0;
+}
+
+.lyrics-info-container {
+  margin-left: 350px;
+  margin-top: 60px;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.info-text {
+  margin-left: 5px;
+  font-size: 13px;
+  letter-spacing: 0.6px;
+}
+
+.fa-language {
+  margin-left: 25px;
+}
+
+.fa-caret-down {
+  margin-left: 4px;
+}
+
+.info-contributor-icon {
+  margin-left: 20px;
+}
+
+.info-contributor-icon,
+.info-contributor-icon2,
+.info-contributor-icon3 {
+  width: 22px;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.info-contributor-icon2,
+.info-contributor-icon3 {
+  margin-left: -3px;
+}
+
+.fa-user {
+  margin-left: 15px;
+}
+
+.lyrics {
+  margin-left: 350px;
+  margin-top: 25px;
+  font-size: 19px;
+  letter-spacing: 0.4px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.lyric-intro-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.lyric {
+  line-height: 30px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.recommendations-container {
+  position: absolute;
+  right: 350px;
+  top: 100px;
+
+  width: 300px;
+  height: 345px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.upcoming-shows-container {
+  border: 1px solid lightgray;
+  cursor: pointer;
+
+  width: 300px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+}
+
+.fa-ticket {
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.upcoming-shows-titles {
+  display: block;
+  margin-left: 10px;
+}
+
+.upcoming-shows-title {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.get-tickets-title {
+  font-size: 14px;
+}
+
+.fa-location-arrow {
+  margin-left: 20px;
+}
+
+.recommendations-songs {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 15px;
+  border: 1px solid black;
+
+  width: 300px;
+  height: 300px;
+}
+
+.you-might-also-like {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+
+  padding-left: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.recommendation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding-bottom: 12px;
+
+  border-bottom: 1px solid black;
+
+  cursor: pointer;
+}
+
+.recommendation-image {
+  height: 48px;
+
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.recommendation-title-artist {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.recommendation-title {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.recommendation-artist {
+  color: gray;
+  font-size: 14px;
+  width: 200px;
+  line-height: 20px;
+}
+
+.lyric-description-seperator {
+  background-color: black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+
+  margin-bottom: -27px;
+
+  height: 26px;
+}
+
+.social-media-container {
+  margin-top: 65px;
+}
+
+.social-media-button-pyong,
+.social-media-button-embed,
+.social-media-button {
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 78px;
+  padding-right: 78px;
+
+  margin-right: 8px;
+
+  font-size: 18px;
+  
+  border-radius: 100px;
+}
+
+.social-media-button-pyong {
+  padding-top: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.social-media-button-embed {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.social-media-container button:hover {
+  color: white;
+  background-color: black;
+}
+
+.lyrics-pyong-amount {
+  display: inline-block;
+}

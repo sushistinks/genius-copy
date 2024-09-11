@@ -1,0 +1,122 @@
+.description-description-container {
+  position:absolute;
+  top: 2075px;
+  left: 350px;
+  height: 2000px;
+  width: 725px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.description-description-container div {
+  color: white;
+  letter-spacing: 0.4px;
+}
+
+.about-container {
+
+  width: 720px;
+  height: 650px;
+
+  display: flex;
+  flex-direction: column;
+
+  border-bottom: 1px solid white
+}
+
+.about-title {
+  font-size: 90px;
+  margin-left: 230px;
+  margin-top: -10px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.about-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 720px;
+}
+
+.genius-annotation,
+.num-contributors {
+  font-size: 13px;
+}
+
+.num-contributors {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.about-description div {
+  letter-spacing: 0.7px;
+  word-spacing: 0.7px;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.about-sentence {
+  margin-top: 16px;
+}
+
+.interactions-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-top: 55px;
+}
+
+.interactions-right-side,
+.interactions-left-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.interaction-num-likes {
+  font-size: 13px;
+  text-decoration: underline;
+  margin-left: 10px;
+  margin-right: 11px;
+}
+
+.interaction-num-likes:hover {
+  text-decoration: none;
+}
+
+.interactions-right-side {
+  margin-right: 5px;
+}
+
+.interactions-left-side *,
+.interactions-right-side * {
+  cursor: pointer;
+}
+
+.fa-message {
+  font-size: 14px;
+}
+
+.interaction-num-comments {
+  font-size: 13px;
+  text-decoration: underline;
+  margin-left: 3px;
+}
+
+.fa-arrow-up-from-bracket {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.interaction-share {
+  margin-left: 5px;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+
+

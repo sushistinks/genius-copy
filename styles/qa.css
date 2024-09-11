@@ -1,0 +1,71 @@
+.qa-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 720px;
+  
+  margin-top: 65px;
+  border-bottom: 1px solid white;
+
+  padding-bottom: 65px;
+}
+
+.qa {
+  font-size: 90px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.qa-description {
+  margin-top: 16px;
+  width: 400px;
+  font-size: 17px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.qa-button {
+  margin-top: 25px;
+
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 7px; 
+  padding-bottom: 7px;
+}
+
+.qa-button:hover {
+  color: rgb(183,85,38);
+  background-color: white;
+}
+
+
+
+.qa-qa {
+  width: 700px;
+  align-items: baseline;
+  background-color: transparent;
+  border: 1px solid white;
+  letter-spacing: 0.7px;
+  word-spacing: 0.7px;
+  font-size: 17px;
+  
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.fa-plus {
+  margin-right: 14px;
+}

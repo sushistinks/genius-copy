@@ -1,0 +1,102 @@
+.header-container{
+  position:fixed;
+  top: 0;
+  left:0;
+  right:0;
+  height: 54px;
+  z-index: 1000;
+
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background-color: rgba(236,117,61,255);
+}
+
+.left-header div,
+.right-header div {
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.left-header {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+
+ margin-left: 8px;
+}
+
+.genius-icon {
+  color: white;
+  height: 33px;
+  cursor: pointer;
+}
+
+.featured-header {
+  font-size: 13.5px;
+  margin-left: 32px;
+}
+
+.sign-up-header,
+.charts-header,
+.video-header,
+.promote-header {
+  margin-left: 28px;
+  font-size: 13.5px;
+}
+
+.promote-header {
+  width: 140px;
+}
+
+.featured-header:hover,
+.sign-up-header:hover,
+.charts-header:hover,
+.video-header:hover,
+.promote-header:hover {
+  text-decoration: underline;
+}
+
+
+.right-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ }
+
+.sign-up-header {
+  font-size: 13px;
+  margin-right: 28px;
+}
+
+.search-header {
+  border: none;
+  margin-right: 35px;
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 14px;
+  padding-right: 8px;
+}
+
+.search-header::placeholder {
+  color: black;
+}
+
+.search-header:focus::placeholder {
+  color: rgba(128, 128, 128, 0.808);
+}
+
+.search-header-container {
+  position: relative;
+}
+
+.search-icon-header {
+  position: absolute;
+  height: 11px;
+  top: 7px;
+  right: 40px;
+}

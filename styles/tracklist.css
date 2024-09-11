@@ -1,0 +1,74 @@
+.tracklist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 720px;
+  height: 1000px;
+  
+  margin-top: 30px;
+}
+
+.tracklist-icon-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tracklist-icon {
+  height: 250px;
+  margin-left: -165px;
+}
+
+.tracklist-title-artist-container {
+  margin-left: 50px;
+}
+
+.tracklist-title {
+  font-size: 17px;
+}
+
+.tracklist-artist {
+  margin-top: 5px;
+  font-size: 13px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.tracklist-artist:hover {
+  text-decoration: none;
+}
+
+.tracklist-bruh {
+  display: flex;
+  gap: 290px;
+}
+.tracklist-grid {
+  display: inline-block;
+}
+
+.current-tracklist-item,
+.tracklist-item {
+  text-decoration: underline;
+  font-size: 13px;
+  margin-top: 28px;
+  margin-left: -100px;
+  cursor: pointer;
+}
+
+.tracklist-item:hover {
+  text-decoration: none;
+}
+
+.current-tracklist-item {
+  margin-top: 19px;
+  margin-bottom: -10px;
+  display: inline-block;
+  border: 1px solid white;
+  position: relative;
+  padding: 5px;
+  text-decoration: none;
+  cursor: default;
+}
+
+

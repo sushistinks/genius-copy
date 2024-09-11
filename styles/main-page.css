@@ -1,0 +1,247 @@
+.main-artist-title-tooltip,
+.pyong-tooltip {
+  position: absolute;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 14px;
+  opacity: 0;
+  z-index: 10000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  transition: opacity 0.3s;
+}
+
+.main-artist-title:hover .main-artist-title-tooltip,
+.main-pyong-amount:hover .pyong-tooltip,
+.main-pyong-icon:hover .pyong-tooltip {
+  opacity: 1 !important;
+}
+
+.pyong-tooltip {
+  width: 215px;
+  margin-right: -260px;
+}
+
+.main-artist-title-tooltip {
+  width: 340px;
+  height: 153px;
+  margin-left: -130px;
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-artist-title-tooltip-icon {
+  height: 45px;
+  width: 45px;
+  border-radius: 23px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.main-artist-title-tooltip-title {
+  color: black !important;
+  font-size: 17px;
+  margin-top: 18px;
+  margin-left: 5px;
+}
+
+.main-artist-title-tooltip-description-preview {
+  margin-top: 15px;
+  margin-left: 17px;
+  margin-right: 17px;
+  color: black !important;
+}
+
+.main-artist-title-tooltip-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.normal-link {
+  text-decoration: none;
+  color: black;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 180px;
+  margin-top: 67px;
+  width: 100%;
+}
+
+@media (max-width: 1525px) {
+  .main-container {
+      margin-left: 150px;
+      margin-top: 52px;
+  }
+}
+
+.main-pyong-container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.main-pyong-icon {
+  height: 30px;
+  cursor: pointer;
+}
+
+.lyrics-pyong-amount,
+.main-pyong-amount {
+  font-size: 13px;
+  margin-top: 8px;
+  text-decoration: underline;
+  color: white;
+  cursor: pointer;
+}
+
+.main-album-icon {
+  width: 342px;
+  max-width: 100%;
+  height: auto;
+  z-index: 200;
+  margin-left: 10px;
+}
+
+@media (max-width: 1525px) {
+  .main-album-icon {
+      width: 250px;
+      height: 250px;
+  }
+}
+
+.main-description-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-top: 2px;
+  z-index: 100;
+}
+
+.main-description-container div {
+  color: white;
+}
+
+@media (max-width: 1525px) {
+  .main-artist-and-album,
+  .main-producer-title,
+  .main-producer,
+  .main-description-preview {
+      font-size: 10px;
+  }
+}
+
+.main-track-title {
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.main-artist-and-album {
+  margin-bottom: 22px;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  width: 290px;
+  position: relative;
+}
+
+.main-artist-title,
+.main-album-title {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.main-artist-title:hover,
+.main-album-title:hover {
+  text-decoration: none;
+}
+
+.main-producer-title {
+  font-size: 13px;
+}
+
+.main-producer {
+  font-size: 18px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.main-producer:hover {
+  text-decoration: none;
+}
+
+.main-description-preview {
+  font-size: 17px;
+  margin-top: 55px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  max-width: 550px;
+  min-width: 280px;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  transition: transform 0.5s ease;
+}
+
+@media (max-width: 1129px) {
+  .main-description-preview {
+      transform: translateY(-45px);
+  }
+}
+
+@media (max-width: 1053px) {
+  .main-description-preview {
+      transform: translateY(-45px);
+  }
+}
+
+.main-read-more {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.main-read-more:hover {
+  text-decoration: none;
+}
+
+.down-arrow-icon {
+  height: 10px;
+  margin-top: 5px;
+}
+
+.main-info-container {
+  margin-top: 13px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 500px;
+
+}
+
+.info-text {
+  margin-top: 1px;
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.fa-eye,
+.fa-clock
+.fa-calendar {
+  font-size: 15px;
+  margin-bottom: 1px;
+}
+
+.fa-eye,
+.fa-clock {
+  margin-left: 18px;
+}
